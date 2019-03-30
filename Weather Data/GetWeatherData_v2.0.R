@@ -77,3 +77,9 @@ save(weatherData, file = fPath)
 fName <- paste0("Evanston Weather Data (", startDate, " - ", endDate, ").csv")
 fPath <- file.path("../", fName)
 write.csv(weatherData, fPath, row.names = FALSE)
+
+
+########################################################
+#                     DAILY AVERAGE                    #
+########################################################
+load('../Data/)
