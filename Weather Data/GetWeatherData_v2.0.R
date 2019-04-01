@@ -82,4 +82,5 @@ write.csv(weatherData, fPath, row.names = FALSE)
 ########################################################
 #                     DAILY AVERAGE                    #
 ########################################################
-load('../Data/)
+
+load('../Data/Evanston Weather Data (2015-01-01 - 2019-03-26).Rdata')
